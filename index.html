@@ -203,7 +203,7 @@
         async function fetchVillages(query) {
             const state = stateSelect.value;
             const API_KEY = "ak_live_final_key"; 
-            const API_SECRET = "test_secret_123";// Use this raw secret
+            const API_SECRET = "test_secret_123";
             const url = `https://village-api-backend-ofpz.onrender.com/v1/autocomplete?q=${query}&state=${encodeURIComponent(state)}`;
 
             try {
